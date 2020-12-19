@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+  </head>
+  <!-- <script type="text/javascript">
+    alert("****Please make sure that you have completed the login process on the last page and your name is visble on the first line of the wepage.
+    if not then do it first as the PDF genration requires LOGIN.
+    without it it may not work as expectedly. ");
+  </script> -->
+  
+  <style>
+    .legends{
+      margin-top:10px;
+      margin-bottom:10px;
+      color : black ;
+      font-size : 25px;
+      font-family:Futura;
+    }
+      @font-face {
+				font-family:Futura;
+				src: url(login.ttf);
+			}
+    .box {
+      background-color :rgba(224,224,224,0.5);
+      border-radius:10px;
+        padding: 35px;
+        height:400px;
+        width: 400px;
+        margin:auto;
+        margin-top:100px;
+        /*box-shadow:0px 0px 30px 5px grey;*/
+    }
+    .input_box{
+      width:80%;
+      padding:20px;
+      border: 2px solid #d4cfc5;
+      border-radius: 50px;
+      font-size:15px;
+      -webkit-transition: 0.35s;
+    }
+    .input_box:hover{
+      background-color:#c0c0c0;
+    }
+    .submit{
+      margin-top:25px;
+      padding:20px;
+      width:30%;
+      padding:20px;
+      border: 2px solid #d4cfc5;
+      border-radius: 50px;
+      font-size:15px;
+      -webkit-transition: 0.35s;
+      font-family:Futura;
+      font-size:19px;
+
+
+    }
+    .submit:hover{
+      background-color:#525252;
+      color:#ffffff;
+    }
+    h1{
+      font-family:Futura;
+
+    }
+    body{
+      background-image: url(back.jpg);
+      background-attachment : fixed;
+      background-size: cover ;
+      margin: 0px;
+    }
+  </style>
+  <body>
+  <div class="box">
+      <h1>Login</h1>
+        <form class="" action="target.htm" method="GET" target = "_parent">
+          <div class = "legends">Username :</div>
+          <input type = "text"  name = "login" Placeholder = "Your Username" class="input_box" required><br>
+
+          <div class = "legends">Password:<br></div>
+          <input type="password" name="password" placeholder="Password" class="input_box" required>
+          <input type="submit" name="" value="Login" class="submit">
+        </form>
+  </div>
+
+  </body>
+</html>
